@@ -31,7 +31,7 @@ python ingest.py <path_to_your_txt_file>
 ```
 
 It will create a `db` folder containing the local vectorstore. Will take time, depending on the size of your document.
-You can ingest as many documents as you want by running `ingest`, and all will be accumulated in the local embeddings database. 
+You can ingest as many documents as you want by running `ingest` command, and all will be accumulated in the local embeddings database. 
 If you want to start from scratch, delete the `db` folder.
 
 Note: during the ingest process no data leaves your local environment. You could ingest without an internet connection.
@@ -49,7 +49,7 @@ And wait for the script to require your input.
 > Enter a query:
 ```
 
-Hit enter. You'll need to wait 20-30 seconds (depending on your machine) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the 4 sources it used as context from your documents; you can then ask another question without re-running the script, just wait for the prompt again. 
+Hit enter. You'll need to wait 20-30 seconds (depending on your machine) while the LLM model consumes the prompt and prepares the answer. Once done, it will print the answer and the four sources it used as context from your documents.; you can then ask another question without re-running the script, just wait for the prompt again. 
 
 Note: you could turn off your internet connection, and the script inference would still work. No data gets out of your local environment.
 
